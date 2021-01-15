@@ -1,0 +1,5 @@
+.place__article{
+    max-width: 484px;
+    min-height: 460px;
+    overflow: hidden;
+  }

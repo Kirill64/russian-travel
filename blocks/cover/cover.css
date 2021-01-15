@@ -1,0 +1,17 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)) , url(../images/__background.jpg);
+    background-size: cover;
+    z-index: 0;
+    background-position: center;
+   }
+  
+   .cover:hover{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) , url(../images/__background.jpg);
+   }

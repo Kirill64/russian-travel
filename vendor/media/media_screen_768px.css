@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+    .header{
+      margin: 28px 24px 0;
+    }
+  
+    .lead{
+      margin: 0 auto;
+      min-height: 862px;
+      
+    }
+  
+    .lead__image{
+      height: 480px;
+    }
+  
+    .lead__caption{
+      margin-left: 24px;
+    }
+  
+    .intro{
+      margin-left: 24px;
+    }
+    .photo-grid{
+      max-width: 720px;
+      min-height: 1664px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      column-gap: 14px;
+      row-gap: 14px;
+      object-fit:cover;
+      object-position: center bottom;
+    }
+  
+    .places{
+      margin: 0 24px;
+      max-width: 720px;
+    }
+  
+    .place__image{
+      width: 340px;
+      height: 340px;
+    }
+  
+    .place__article{
+      max-width: 352px;
+      min-height: 460px;
+    }
+  
+    .cover__title{
+      margin: 0 104px;
+  
+    }
+  
+    .cover__subtitle{
+      margin: 0 204px;
+    }
+  
+    .footer{
+      margin: 88px 24px 24px;
+    }
+  }
