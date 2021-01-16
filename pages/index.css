@@ -30,7 +30,7 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__article/place__article.css);
-@import url(../blocks/place/__article/_article_store/place__article_store.css);
+@import url(../blocks/place/__article/_article-store/place_article-store.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
