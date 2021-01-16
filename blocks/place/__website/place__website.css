@@ -3,7 +3,13 @@
     justify-self: start;
     align-items: flex-end;
     color: #cccccc;
-    min-height: 76px;
     max-width: 484px;
     margin: 0;
+   }
+
+   @media screen and (max-width: 320px){
+    .place__website{
+        width: 288px;
+        margin: 0 auto 32px;
+       }
    }

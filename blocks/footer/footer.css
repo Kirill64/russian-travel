@@ -5,3 +5,18 @@
     justify-content: space-between;
     align-items: center;
    }
+
+   @media screen and (max-width: 768px) {
+    .footer{
+        margin: 88px 24px 24px;
+      }
+    }
+
+    @media screen and (max-width: 320px){
+        .footer{
+            max-width:186px;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+          }
+    }

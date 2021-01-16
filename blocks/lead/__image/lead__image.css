@@ -2,4 +2,14 @@
     width: 100%;
     height: 615px;
     margin: 64px 0 auto;
+    object-fit: cover;
+    object-position: center;
+   }
+
+   @media screen and (max-width: 320px){
+    .lead__image{
+        width: 100%;
+        height: 200px;
+        margin: 40px 0 auto;
+       }
    }

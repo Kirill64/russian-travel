@@ -15,3 +15,20 @@
    .cover:hover{
     background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)) , url(../../images/__background.jpg);
    }
+
+   @media screen and (max-width: 1024px){
+    .cover{
+        width: 100%;
+        margin: 0;
+      }
+
+   }
+
+   @media screen and (max-width: 320px){
+    .cover{
+        width: 100%;
+        min-height: 200px;
+        margin-top: 66px;
+      }
+    
+   }
