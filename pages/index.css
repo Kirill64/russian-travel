@@ -6,8 +6,8 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__lang/_lang_link/header_lang_link_en.css);
-@import url(../blocks/header/__lang/_lang_link/header_lang_link_ru.css);
+@import url(../blocks/header/__lang/__lang_link/header__lang_link_en.css);
+@import url(../blocks/header/__lang/__lang_link/header__lang_link_ru.css);
 @import url(../blocks/lead/lead.css);
 
 @import url(../blocks/lead/lead.css);
@@ -30,7 +30,7 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__article/place__article.css);
-@import url(../blocks/place/__article/_article-store/place_article-store.css);
+@import url(../blocks/place/__article/__article_store/place__article_store.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
