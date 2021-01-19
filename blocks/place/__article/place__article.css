@@ -1,18 +1,10 @@
 .place__article{
-    max-width: 484px;
-    overflow: hidden;
+    max-width: 726px;
+    
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 740px){
     .place__article{
-      max-width: 352px;
+      margin: 0 16px;
     }
-  }
-
-  @media screen and (max-width: 320px){
-    .place__article{
-      width: 288px;
-      margin: 0 auto;
-  
-     }
   }

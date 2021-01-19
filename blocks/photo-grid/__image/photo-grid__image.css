@@ -2,7 +2,7 @@
     width: 284px;
     height: 213px;
     object-fit: cover;
-    object-position: center;
+    object-position:center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,9 +19,9 @@
       }
 }
 
-   @media screen and (max-width: 320px){
+   @media screen and (max-width: 740px){
     .place__image{
-        width: 288;
+        width: 288px;
         height: 216px;
         
       }

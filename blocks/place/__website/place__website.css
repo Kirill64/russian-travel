@@ -7,9 +7,14 @@
     margin: 0;
    }
 
-   @media screen and (max-width: 320px){
+   .place__website:hover{
+       opacity: .8;
+
+   }
+
+   @media screen and (max-width: 740px){
     .place__website{
-        width: 288px;
+        max-width: 288px;
         margin: 0 auto 32px;
        }
    }
