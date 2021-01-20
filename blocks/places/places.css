@@ -18,9 +18,8 @@
       }
     }
 
-   @media screen and (max-width: 900px) {
+   @media screen and (max-width: 900px){
     .places{
-      
       grid-template-columns: 340px minmax(353px, 1fr);
       column-gap: 28px;
       row-gap: 48px;
@@ -31,13 +30,12 @@
 
    @media screen and (max-width: 700px){
     .places{
-        
-        margin: 64px auto 66px ; 
+        margin: 64px auto 66px; 
         column-gap: 0;
         row-gap: 0;
         display: flex;
         flex-direction: column;
-        align-items: center ;
+        align-items: center;
         
       }
  

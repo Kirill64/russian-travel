@@ -1,15 +1,22 @@
 .cover__image{
     position: relative;
-    width: 100vw;
+    width: 92.5vw;
     height: auto;
     opacity: .7;
-    margin: 0 ;
+    margin: 0 48px;
    
     
 }
 
 .cover__image:hover{
     opacity: .3;
+}
+
+@media screen and (max-width: 1024px){
+    .cover__image{
+        width: 100vw;
+        margin: 0;
+    }
 }
 
 
