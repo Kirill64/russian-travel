@@ -1,0 +1,27 @@
+.place__website{
+    display: flex;
+    justify-self: start;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin: 0;
+   }
+
+   .place__website:hover{
+       opacity: .8;
+
+   }
+
+   @media screen and (max-width: 700px){
+    .place__website{
+         max-width: 288px;
+         margin: 0 16px 32px;
+    }
+
+   }
+
+   @media screen and (max-width: 320px){
+    .place__website{
+        align-self: start;
+        
+       }
+   }

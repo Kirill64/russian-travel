@@ -8,13 +8,25 @@
    font-size: 72px;
    line-height: 106%;
    margin: 0;
-   
    }
 
-   @media screen and (max-width: 740px){
+   @media screen and (max-width: 900px){
       .place__title{
-         justify-content: center;
+         font-size: 5.47vw;
+        
+      }
+   }
+
+   @media screen and (max-width: 700px){
+      .place__title{ 
          margin: 0 16px 56px;
+      }
+   }
+
+   @media screen and (max-width: 320px){
+      .place__title{
+         justify-items: flex-start;
+         align-self: start;
          font-size: 32px;
          line-height: 106%;
        }

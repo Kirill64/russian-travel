@@ -1,0 +1,16 @@
+.cover__image{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    opacity: .7;
+    margin: 0 ;
+   
+    
+}
+
+.cover__image:hover{
+    opacity: .3;
+}
+
+
+

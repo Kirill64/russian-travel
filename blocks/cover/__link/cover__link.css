@@ -1,0 +1,17 @@
+.cover__link{
+    max-width: 1184px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    ;
+}
+
+@media screen and (max-width: 1024px){
+    .cover__link{
+        width: 100vw;
+    }
+
+}

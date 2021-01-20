@@ -3,9 +3,15 @@
     padding: 0;
     width: 100%;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 12px;
     line-height: 150%;
     list-style-type:none;
     
    }
+
+   @media screen and (max-width: 768px){
+    .intro__list{
+      font-size: 1.56vw;
+    } 
+ }
