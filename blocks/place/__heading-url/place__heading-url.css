@@ -1,0 +1,21 @@
+.place__heading-url{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 768px){
+    .place__heading-url{
+        align-items: center;
+
+    }
+    }
+
+@media screen and (max-width: 320px){
+    .place__heading-url{
+        
+        align-items: flex-start;
+    }
+}

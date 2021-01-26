@@ -12,8 +12,8 @@
 
    @media screen and (max-width: 900px){
       .place__title{
-         font-size: 5.47vw;
-        
+         font-size: 42px;
+         line-height: 110%;
       }
    }
 
@@ -28,6 +28,6 @@
          justify-items: flex-start;
          align-self: start;
          font-size: 32px;
-         line-height: 106%;
+         line-height: 109%;
        }
    }

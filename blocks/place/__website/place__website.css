@@ -1,9 +1,10 @@
 .place__website{
-    display: flex;
-    justify-self: start;
-    align-items: flex-end;
     color: #FFFFFF;
     margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
    }
 
    .place__website:hover{
@@ -21,7 +22,7 @@
 
    @media screen and (max-width: 320px){
     .place__website{
-        align-self: start;
+        align-self: flex-start;
         
        }
    }
