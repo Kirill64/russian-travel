@@ -1,24 +1,24 @@
-.footer{
+.footer {
     margin: 92px 48px 24px;
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   }
+}
 
-   @media screen and (max-width: 768px) {
-    .footer{
+@media screen and (max-width: 768px) {
+    .footer {
         max-width: 720px;
         margin: 88px 24px 24px;
-      }
     }
+}
 
-    @media screen and (max-width: 600px){
-        .footer{
-            max-width:600px;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            margin-top: 64px;
-          }
+@media screen and (max-width: 600px) {
+    .footer {
+        max-width: 600px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 64px;
     }
+}
